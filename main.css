@@ -292,21 +292,34 @@ button{
     height: 150px;
 }
 
+.imagebutton-container {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+  }
+
 .imagebutton {
-color: transparent;
-width: 150px;
-padding: 15px 0;
-text-align: center;
-margin: 20px 10px;
-border-radius: 20px;
-border: 0px solid var(--textcolor);
-font-weight: bold;
-background: transparent;
-cursor: pointer;
-overflow: hidden;
-transition: all 0.5s ease;
-height: 150px;
-}
+    color: transparent;
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 20px;
+    border: 0px solid var(--textcolor);
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    height: 150px;
+    }
+
+    @media (max-width: 720px) {
+        .imagebutton {
+          width: 100px;
+          height: 100px;
+        }
+      }
    
 button:hover{
     -webkit-transition: scale(1.3);
