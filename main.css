@@ -274,7 +274,13 @@ body {
 
 /* Buttons */
 
-button{
+.imagebutton-container {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+  }
+
+.imagebutton {
     margin-left:25%;
     margin-right:25%;
     padding: 15px 0;
@@ -287,28 +293,6 @@ button{
     color: var(--textcolor);
     cursor: pointer;
     position: relative;
-    overflow: hidden;
-    transition: all 0.5s ease;
-    height: 150px;
-}
-
-.imagebutton-container {
-    display: flex;
-    flex-direction: wrap;
-    justify-content: center;
-  }
-
-.imagebutton {
-    color: transparent;
-    width: 150px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 20px;
-    border: 0px solid var(--textcolor);
-    font-weight: bold;
-    background: transparent;
-    cursor: pointer;
     overflow: hidden;
     transition: all 0.5s ease;
     height: 150px;
