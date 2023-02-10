@@ -31,12 +31,13 @@ body {
 .sidebar {
     position: fixed;
     height: 100%;
-    width: 78px;
+    width: 75px;
     top: 0;
     left: 0;
     background: var(--sidebarcolor1);
     padding: 6px 14px;
     transition: all 0.5s ease;
+    z-index: 1;
 }
 
 .sidebar.active {
@@ -293,9 +294,13 @@ button{
 }
 
 .imagebutton-container {
-    display: flex;
+    display:flex;
     flex-direction: wrap;
     justify-content: center;
+    padding-left: 125px;
+    inset-inline-end: 1000px;
+    max-width: 100%;
+    
   }
 
 .imagebutton {
