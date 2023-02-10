@@ -20,9 +20,9 @@
 body {
     position: relative;
     min-height: 100vh;
-    width: 100%;
-    background-color: var(--background);  
+    width: 100%; 
     min-height: 100vh;
+    background-color: #24223e;
 }
 
 /* Contains CSS for the Sidebar AKA: Navigation Bar */
