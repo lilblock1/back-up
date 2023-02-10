@@ -275,7 +275,13 @@ body {
 
 /* Buttons */
 
-button{
+.imagebutton-container {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+  }
+
+.imagebutton {
     margin-left:25%;
     margin-right:25%;
     padding: 15px 0;
@@ -291,6 +297,7 @@ button{
     overflow: hidden;
     transition: all 0.5s ease;
     height: 150px;
+    
 }
 
 .imagebutton-container {
@@ -317,6 +324,7 @@ button{
     overflow: hidden;
     transition: all 0.5s ease;
     height: 150px;
+
     }
 
     @media (max-width: 720px) {
